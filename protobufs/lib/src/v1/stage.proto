@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.auntpei.sprout.v1;
+
+import "v1/pledge.proto";
+
+message UniversityStageInfo {
+  string domain_name = 1;
+  repeated PledgeInfo pledge_infos = 2;
+}

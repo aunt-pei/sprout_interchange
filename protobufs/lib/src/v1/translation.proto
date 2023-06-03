@@ -1,0 +1,154 @@
+syntax = "proto3";
+
+package com.auntpei.sprout.v1;
+
+message TranslationAttributesOperation {
+  enum Enum {
+    UNKNOWN = 0;
+    ADD = 1;
+    REMOVE = 2;
+    REPLACE = 3;
+  }
+}
+
+message TranslationAttributes {
+  repeated int64 attributes = 1;
+  TranslationAttributesOperation.Enum operation = 2;
+}
+
+message TranslationSequence {
+  repeated TranslationEntity sequence = 1;
+  TranslationEntity connector = 2;
+}
+
+message TranslationEntity {
+  oneof entity {
+    string value = 1;
+    TranslationSequence sequence = 2;
+    // TODO: Add a redirection entity to allow structured reuse.
+  }
+  TranslationAttributes attributes = 3;
+}
+
+message TranslationContent {
+  TranslationEntity app_name = 1;
+  TranslationEntity error_generic_content = 2;
+  TranslationEntity page_not_found_label = 3;
+  TranslationEntity support_authentication_help_label = 4;
+  TranslationEntity support_authentication_help_content = 5;
+  TranslationEntity support_wip_label = 6;
+  TranslationEntity support_wip_notice = 7;
+  TranslationEntity support_wip_content = 8;
+  TranslationEntity support_general_help_label = 9;
+  TranslationEntity support_general_help_content = 10;
+  TranslationEntity support_general_help_doc_label = 11;
+  TranslationEntity support_general_help_doc_url = 12;
+  TranslationEntity support_general_help_related_label = 13;
+  TranslationEntity support_report_label = 14;
+  TranslationEntity support_report_content = 15;
+  TranslationEntity settings_label = 16;
+  TranslationEntity settings_language_label = 17;
+  TranslationEntity settings_theme_label = 18;
+  TranslationEntity duration_format_microsecond_singular = 19;
+  TranslationEntity duration_format_microsecond_plural = 20;
+  TranslationEntity duration_format_millisecond_singular = 21;
+  TranslationEntity duration_format_millisecond_plural = 22;
+  TranslationEntity duration_format_second_singular = 23;
+  TranslationEntity duration_format_second_plural = 24;
+  TranslationEntity duration_format_minute_singular = 25;
+  TranslationEntity duration_format_minute_plural = 26;
+  TranslationEntity duration_format_hour_singular = 27;
+  TranslationEntity duration_format_hour_plural = 28;
+  TranslationEntity duration_format_day_singular = 29;
+  TranslationEntity duration_format_day_plural = 30;
+  TranslationEntity login_form_password_label = 31;
+  TranslationEntity login_form_submit_label = 32;
+  TranslationEntity university_domain_name_label = 33;
+  TranslationEntity university_country_code_label = 34;
+  TranslationEntity university_status_label = 35;
+  TranslationEntity university_status_unknown_label = 36;
+  TranslationEntity university_status_enabled_label = 37;
+  TranslationEntity university_status_disabled_label = 38;
+  TranslationEntity investments_fallback_query = 39;
+  TranslationEntity investments_overall_label = 40;
+  TranslationEntity investments_country_label = 41;
+  TranslationEntity investments_university_label = 42;
+  TranslationEntity investments_deadline_end_open_label = 43;
+  TranslationEntity investments_deadline_end_closed_label = 44;
+  TranslationEntity investments_deadline_remaining_label = 45;
+  TranslationEntity investments_list_overview_label = 46;
+  TranslationEntity investments_list_metrics_label = 47;
+  TranslationEntity investments_list_metrics_percent_format = 48;
+  TranslationEntity investments_list_metrics_percentile_format = 49;
+  TranslationEntity investments_list_metrics_separator = 50;
+  TranslationEntity investments_list_metrics_pledge_count_label = 51;
+  TranslationEntity investments_list_metrics_commitment_value_label = 52;
+  TranslationEntity investments_list_metrics_company_share_label = 53;
+  TranslationEntity investments_list_metrics_stat_total_label = 54;
+  TranslationEntity investments_list_metrics_stat_satisfied_label = 55;
+  TranslationEntity investments_list_metrics_stat_slice_median_label = 56;
+  TranslationEntity investments_list_metrics_stat_slice_current_label = 57;
+  TranslationEntity investments_list_pledge_label = 58;
+  TranslationEntity investments_list_pledge_delete_label = 59;
+  TranslationEntity investments_list_pledge_condition_unknown_statement = 60;
+  TranslationEntity investments_list_pledge_condition_combiner_and_statement = 61;
+  TranslationEntity investments_list_pledge_condition_combiner_or_statement = 62;
+  TranslationEntity investments_list_pledge_condition_comparator_greater_equal_clause = 63;
+  TranslationEntity investments_list_pledge_condition_predicate_root_unset_statement = 64;
+  TranslationEntity investments_list_pledge_condition_predicate_root_set_statement = 65;
+  TranslationEntity investments_list_pledge_condition_predicate_node_university_statement = 66;
+  TranslationEntity investments_list_pledge_condition_predicate_node_commitment_statement = 67;
+  TranslationEntity investments_list_pledge_condition_where_root_unset_statement = 68;
+  TranslationEntity investments_list_pledge_condition_where_root_set_statement = 69;
+  TranslationEntity investments_list_pledge_condition_where_node_university_statement = 70;
+  TranslationEntity investments_list_pledge_condition_where_node_country_statement = 71;
+  TranslationEntity investments_list_pledge_condition_where_node_commitment_statement = 72;
+  TranslationEntity investments_list_pledge_condition_where_node_commitment_slice_country_clause = 73;
+  TranslationEntity investments_list_pledge_condition_where_node_commitment_slice_university_clause = 74;
+  TranslationEntity investments_list_pledge_condition_where_node_commitment_slice_pledge_clause = 75;
+  TranslationEntity investments_list_query_filter_status_unsatisfied_label = 76;
+  TranslationEntity investments_list_query_filter_status_satisfied_label = 77;
+  TranslationEntity investments_list_query_sort_dimension_creation_timestamp_label = 78;
+  TranslationEntity investments_list_query_sort_dimension_commitment_value_label = 79;
+  TranslationEntity investments_creation_label = 80;
+  TranslationEntity investments_creation_submit_label = 81;
+  TranslationEntity investments_creation_copy_label = 82;
+  TranslationEntity investments_creation_reset_label = 83;
+  TranslationEntity investments_creation_cancel_label = 84;
+  TranslationEntity investments_creation_success_label = 85;
+  TranslationEntity investments_creation_success_create_label = 86;
+  TranslationEntity investments_creation_success_cancel_label = 87;
+  TranslationEntity investments_creation_import_label = 88;
+  TranslationEntity investments_creation_import_input_label = 89;
+  TranslationEntity investments_creation_commitment_section_label = 90;
+  TranslationEntity investments_creation_commitment_input_label = 91;
+  TranslationEntity investments_creation_condition_combiner_and_label = 92;
+  TranslationEntity investments_creation_condition_combiner_or_label = 93;
+  TranslationEntity investments_creation_condition_comparator_greater_equal_label = 94;
+  TranslationEntity investments_creation_condition_predicate_section_label = 95;
+  TranslationEntity investments_creation_condition_predicate_input_root_set_statement = 96;
+  TranslationEntity investments_creation_condition_predicate_input_node_university_label = 97;
+  TranslationEntity investments_creation_condition_predicate_input_node_commitment_label = 98;
+  TranslationEntity investments_creation_condition_where_section_label = 99;
+  TranslationEntity investments_creation_condition_where_input_root_unused_statement = 100;
+  TranslationEntity investments_creation_condition_where_input_node_commitment_slice_country_label = 101;
+  TranslationEntity investments_creation_condition_where_input_node_commitment_slice_university_label = 102;
+  TranslationEntity investments_creation_condition_where_input_node_commitment_slice_pledge_label = 103;
+  TranslationEntity university_index_label = 104;
+  TranslationEntity university_index_filter_error_content = 105;
+  TranslationEntity raw_data_label = 106;
+  TranslationEntity raw_data_info_content = 107;
+  TranslationEntity raw_data_stage_content = 108;
+  TranslationEntity raw_data_stage_schema_label = 109;
+  TranslationEntity raw_data_stage_schema_url = 110;
+  TranslationEntity raw_data_backdrop_content = 111;
+  TranslationEntity raw_data_backdrop_source_label = 112;
+  TranslationEntity raw_data_backdrop_source_url = 113;
+  TranslationEntity raw_data_backdrop_schema_label = 114;
+  TranslationEntity raw_data_backdrop_schema_url = 115;
+}
+
+message TranslationStrings {
+  TranslationContent content = 1;
+  TranslationEntity default_connector = 2;
+}

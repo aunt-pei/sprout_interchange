@@ -1,0 +1,759 @@
+{
+  "content": {
+    "app_name": {
+      "value": "Aunt Pei"
+    },
+    "error_generic_content": {
+      "sequence": {
+        "sequence": [
+          {
+            "value": "An error occurred. Please retry."
+          },
+          {
+            "value": "I'm working on the messaging.",
+            "attributes": {
+              "attributes": [
+                1
+              ],
+              "operation": "ADD"
+            }
+          }
+        ]
+      }
+    },
+    "page_not_found_label": {
+      "value": "Page Not Found"
+    },
+    "support_authentication_help_label": {
+      "value": "Help"
+    },
+    "support_authentication_help_content": {
+      "value": "Please message contact@auntpei.com if you're having trouble logging in or would like access."
+    },
+    "support_wip_label": {
+      "value": "Work in Progress"
+    },
+    "support_wip_notice": {
+      "value": "Site not yet operable"
+    },
+    "support_wip_content": {
+      "sequence": {
+        "sequence": [
+          {
+            "value": "This site is still under construction and not yet operable. Please see the support doc for current status."
+          },
+          {
+            "sequence": {
+              "sequence": [
+                {
+                  "value": "Some known and evident issues include:"
+                },
+                {
+                  "value": " • UI scaling: prefer using a desktop/laptop."
+                },
+                {
+                  "value": " • UI lagging: scrolling and other interactions may be slow."
+                },
+                {
+                  "value": " • Gesture navigation: pinch-to-zoom and swipe-to-back don't work."
+                },
+                {
+                  "value": " • Keyboard navigation: spacebar, arrow, and page keys don't work."
+                },
+                {
+                  "value": " • Error messaging: errors may be unclear."
+                },
+                {
+                  "value": "These are being worked on."
+                }
+              ],
+              "connector": {
+                "value": "\n"
+              }
+            }
+          },
+          {
+            "value": "Feature or improvement suggestions are much welcomed at contact@auntpei.com. They will be considered and recorded but may not be implemented."
+          },
+          {
+            "value": "Thanks for understanding!"
+          }
+        ],
+        "connector": {
+          "value": "\n\n"
+        }
+      }
+    },
+    "support_general_help_label": {
+      "value": "Help"
+    },
+    "support_general_help_content": {
+      "sequence": {
+        "sequence": [
+          {
+            "value": "Visit the document linked above for frequently asked questions and other needs. It will have the most up-to-date support info."
+          },
+          {
+            "value": "If you still need help, reach out to contact@auntpei.com."
+          }
+        ],
+        "connector": {
+          "value": "\n\n"
+        }
+      }
+    },
+    "support_general_help_doc_label": {
+      "value": "Support Doc"
+    },
+    "support_general_help_doc_url": {
+      "value": "https://docs.google.com/document/d/1W3jnhFG_ElYRasqIREaUUUir0w-VuDEeXHuSn9FpUYI/edit?usp=sharing"
+    },
+    "support_general_help_related_label": {
+      "value": "Related"
+    },
+    "support_report_label": {
+      "value": "Report"
+    },
+    "support_report_content": {
+      "sequence": {
+        "sequence": [
+          {
+            "value": "If you believe one of the institutions below should not be included in this venture, please explain why to contact@auntpei.com. Any such reports will be kept confidential."
+          },
+          {
+            "value": "Please only report institutions for legitimate reasons. See the support doc for examples."
+          },
+          {
+            "value": "Reports will be considered in aggregate and may or may not result in action."
+          }
+        ],
+        "connector": {
+          "value": "\n\n"
+        }
+      }
+    },
+    "settings_label": {
+      "value": "Settings"
+    },
+    "settings_language_label": {
+      "value": "Language"
+    },
+    "settings_theme_label": {
+      "value": "Theme"
+    },
+    "duration_format_microsecond_singular": {
+      "value": "microsecond"
+    },
+    "duration_format_microsecond_plural": {
+      "value": "microseconds"
+    },
+    "duration_format_millisecond_singular": {
+      "value": "millisecond"
+    },
+    "duration_format_millisecond_plural": {
+      "value": "milliseconds"
+    },
+    "duration_format_second_singular": {
+      "value": "second"
+    },
+    "duration_format_second_plural": {
+      "value": "seconds"
+    },
+    "duration_format_minute_singular": {
+      "value": "minute"
+    },
+    "duration_format_minute_plural": {
+      "value": "minutes"
+    },
+    "duration_format_hour_singular": {
+      "value": "hour"
+    },
+    "duration_format_hour_plural": {
+      "value": "hours"
+    },
+    "duration_format_day_singular": {
+      "value": "day"
+    },
+    "duration_format_day_plural": {
+      "value": "days"
+    },
+    "login_form_password_label": {
+      "value": "Password"
+    },
+    "login_form_submit_label": {
+      "value": "Submit"
+    },
+    "university_domain_name_label": {
+      "value": "Domain Name"
+    },
+    "university_country_code_label": {
+      "value": "Country Code"
+    },
+    "university_status_label": {
+      "value": "Status"
+    },
+    "university_status_unknown_label": {
+      "value": "Unknown"
+    },
+    "university_status_enabled_label": {
+      "value": "Enabled"
+    },
+    "university_status_disabled_label": {
+      "value": "Disabled"
+    },
+    "investments_fallback_query": {
+      "value": "unknown"
+    },
+    "investments_overall_label": {
+      "value": "Overall"
+    },
+    "investments_country_label": {
+      "value": "Country"
+    },
+    "investments_university_label": {
+      "value": "University"
+    },
+    "investments_deadline_end_open_label": {
+      "sequence": {
+        "sequence": [
+          {
+            "value": "Open until"
+          },
+          {
+            "attributes": {
+              "attributes": [
+                1
+              ],
+              "operation": "ADD"
+            }
+          }
+        ]
+      }
+    },
+    "investments_deadline_end_closed_label": {
+      "sequence": {
+        "sequence": [
+          {
+            "value": "Closed on"
+          },
+          {
+            "attributes": {
+              "attributes": [
+                1
+              ],
+              "operation": "ADD"
+            }
+          }
+        ]
+      }
+    },
+    "investments_deadline_remaining_label": {
+      "sequence": {
+        "sequence": [
+          {
+            "attributes": {
+              "attributes": [
+                1
+              ],
+              "operation": "ADD"
+            }
+          },
+          {
+            "value": "remaining",
+            "attributes": {
+              "attributes": [
+                2
+              ],
+              "operation": "ADD"
+            }
+          }
+        ]
+      }
+    },
+    "investments_list_overview_label": {
+      "value": "Overview"
+    },
+    "investments_list_metrics_label": {
+      "value": "Metrics"
+    },
+    "investments_list_metrics_percent_format": {
+      "value": "<1>%"
+    },
+    "investments_list_metrics_percentile_format": {
+      "value": "<1>%-tile"
+    },
+    "investments_list_metrics_separator": {
+      "sequence": {
+        "sequence": [
+          {
+            "value": ""
+          },
+          {
+            "value": "/"
+          },
+          {
+            "value": ""
+          }
+        ]
+      }
+    },
+    "investments_list_metrics_pledge_count_label": {
+      "value": "Pledge Count"
+    },
+    "investments_list_metrics_commitment_value_label": {
+      "value": "Commitment Amount"
+    },
+    "investments_list_metrics_company_share_label": {
+      "value": "Company Share"
+    },
+    "investments_list_metrics_stat_total_label": {
+      "value": "Total"
+    },
+    "investments_list_metrics_stat_satisfied_label": {
+      "value": "Satisfied"
+    },
+    "investments_list_metrics_stat_slice_median_label": {
+      "value": "Slice Median"
+    },
+    "investments_list_metrics_stat_slice_current_label": {
+      "value": "Current Slice"
+    },
+    "investments_list_pledge_label": {
+      "value": "Pledges"
+    },
+    "investments_list_pledge_delete_label": {
+      "value": "Delete"
+    },
+    "investments_list_pledge_condition_unknown_statement": {
+      "value": "Unknown"
+    },
+    "investments_list_pledge_condition_combiner_and_statement": {
+      "sequence": {
+        "sequence": [
+          {
+            "value": "All"
+          },
+          {
+            "value": "of",
+            "attributes": {
+              "attributes": [
+                1
+              ],
+              "operation": "ADD"
+            }
+          }
+        ]
+      }
+    },
+    "investments_list_pledge_condition_combiner_or_statement": {
+      "sequence": {
+        "sequence": [
+          {
+            "value": "Any"
+          },
+          {
+            "value": "of",
+            "attributes": {
+              "attributes": [
+                1
+              ],
+              "operation": "ADD"
+            }
+          }
+        ]
+      }
+    },
+    "investments_list_pledge_condition_comparator_greater_equal_clause": {
+      "value": "at least"
+    },
+    "investments_list_pledge_condition_predicate_root_unset_statement": {
+      "value": "Unconditional"
+    },
+    "investments_list_pledge_condition_predicate_root_set_statement": {
+      "sequence": {
+        "sequence": [
+          {
+            "value": "Conditional"
+          },
+          {
+            "value": "on and",
+            "attributes": {
+              "attributes": [
+                1
+              ],
+              "operation": "ADD"
+            }
+          },
+          {
+            "attributes": {
+              "attributes": [
+                2
+              ],
+              "operation": "ADD"
+            }
+          },
+          {
+            "value": "to",
+            "attributes": {
+              "attributes": [
+                1
+              ],
+              "operation": "ADD"
+            }
+          }
+        ]
+      }
+    },
+    "investments_list_pledge_condition_predicate_node_university_statement": {
+      "sequence": {
+        "sequence": [
+          {
+            "value": "Number of other universities investing"
+          },
+          {
+            "value": "is",
+            "attributes": {
+              "attributes": [
+                1
+              ],
+              "operation": "ADD"
+            }
+          },
+          {
+            "attributes": {
+              "attributes": [
+                2
+              ],
+              "operation": "ADD"
+            }
+          },
+          {
+            "attributes": {
+              "attributes": [
+                3
+              ],
+              "operation": "ADD"
+            }
+          }
+        ]
+      }
+    },
+    "investments_list_pledge_condition_predicate_node_commitment_statement": {
+      "sequence": {
+        "sequence": [
+          {
+            "value": "Total satisfied commitment amount"
+          },
+          {
+            "value": "is",
+            "attributes": {
+              "attributes": [
+                1
+              ],
+              "operation": "ADD"
+            }
+          },
+          {
+            "attributes": {
+              "attributes": [
+                2
+              ],
+              "operation": "ADD"
+            }
+          },
+          {
+            "attributes": {
+              "attributes": [
+                3
+              ],
+              "operation": "ADD"
+            }
+          }
+        ]
+      }
+    },
+    "investments_list_pledge_condition_where_root_unset_statement": {
+      "sequence": {
+        "sequence": [
+          {
+            "value": "Considering only satisfied pledges from other universities",
+            "attributes": {
+              "attributes": [
+                1
+              ],
+              "operation": "ADD"
+            }
+          }
+        ]
+      }
+    },
+    "investments_list_pledge_condition_where_root_set_statement": {
+      "sequence": {
+        "sequence": [
+          {
+            "value": "Considering only satisfied pledges from other universities",
+            "attributes": {
+              "attributes": [
+                1
+              ],
+              "operation": "ADD"
+            }
+          },
+          {
+            "value": "where"
+          }
+        ]
+      }
+    },
+    "investments_list_pledge_condition_where_node_university_statement": {
+      "sequence": {
+        "sequence": [
+          {
+            "value": "University"
+          },
+          {
+            "value": "is",
+            "attributes": {
+              "attributes": [
+                1
+              ],
+              "operation": "ADD"
+            }
+          },
+          {
+            "attributes": {
+              "attributes": [
+                2
+              ],
+              "operation": "ADD"
+            }
+          }
+        ]
+      }
+    },
+    "investments_list_pledge_condition_where_node_country_statement": {
+      "sequence": {
+        "sequence": [
+          {
+            "value": "Country"
+          },
+          {
+            "value": "is",
+            "attributes": {
+              "attributes": [
+                1
+              ],
+              "operation": "ADD"
+            }
+          },
+          {
+            "attributes": {
+              "attributes": [
+                2
+              ],
+              "operation": "ADD"
+            }
+          }
+        ]
+      }
+    },
+    "investments_list_pledge_condition_where_node_commitment_statement": {
+      "sequence": {
+        "sequence": [
+          {
+            "value": "Total satisfied commitment amount"
+          },
+          {
+            "value": "of the",
+            "attributes": {
+              "attributes": [
+                1
+              ],
+              "operation": "ADD"
+            }
+          },
+          {
+            "attributes": {
+              "attributes": [
+                2
+              ],
+              "operation": "ADD"
+            }
+          },
+          {
+            "value": "is",
+            "attributes": {
+              "attributes": [
+                1
+              ],
+              "operation": "ADD"
+            }
+          },
+          {
+            "attributes": {
+              "attributes": [
+                3
+              ],
+              "operation": "ADD"
+            }
+          },
+          {
+            "attributes": {
+              "attributes": [
+                4
+              ],
+              "operation": "ADD"
+            }
+          }
+        ]
+      }
+    },
+    "investments_list_pledge_condition_where_node_commitment_slice_country_clause": {
+      "value": "country"
+    },
+    "investments_list_pledge_condition_where_node_commitment_slice_university_clause": {
+      "value": "university"
+    },
+    "investments_list_pledge_condition_where_node_commitment_slice_pledge_clause": {
+      "value": "pledge"
+    },
+    "investments_list_query_filter_status_unsatisfied_label": {
+      "value": "Unsatisfied"
+    },
+    "investments_list_query_filter_status_satisfied_label": {
+      "value": "Satisfied"
+    },
+    "investments_list_query_sort_dimension_creation_timestamp_label": {
+      "value": "Creation"
+    },
+    "investments_list_query_sort_dimension_commitment_value_label": {
+      "value": "Commitment"
+    },
+    "investments_creation_label": {
+      "value": "Create Pledge"
+    },
+    "investments_creation_submit_label": {
+      "value": "Submit"
+    },
+    "investments_creation_copy_label": {
+      "value": "Copy"
+    },
+    "investments_creation_reset_label": {
+      "value": "Reset"
+    },
+    "investments_creation_cancel_label": {
+      "value": "Cancel"
+    },
+    "investments_creation_success_label": {
+      "value": "Success"
+    },
+    "investments_creation_success_create_label": {
+      "value": "Create Another"
+    },
+    "investments_creation_success_cancel_label": {
+      "value": "Return"
+    },
+    "investments_creation_import_label": {
+      "value": "Import"
+    },
+    "investments_creation_import_input_label": {
+      "value": "Code"
+    },
+    "investments_creation_commitment_section_label": {
+      "value": "Amount"
+    },
+    "investments_creation_commitment_input_label": {
+      "value": "USD"
+    },
+    "investments_creation_condition_combiner_and_label": {
+      "value": "All"
+    },
+    "investments_creation_condition_combiner_or_label": {
+      "value": "Any"
+    },
+    "investments_creation_condition_comparator_greater_equal_label": {
+      "value": "At least"
+    },
+    "investments_creation_condition_predicate_section_label": {
+      "value": "Predicate"
+    },
+    "investments_creation_condition_predicate_input_root_set_statement": {
+      "sequence": {
+        "sequence": [
+          {
+            "value": "Conditional"
+          },
+          {
+            "value": "on",
+            "attributes": {
+              "attributes": [
+                1
+              ],
+              "operation": "ADD"
+            }
+          }
+        ]
+      }
+    },
+    "investments_creation_condition_predicate_input_node_university_label": {
+      "value": "University Count"
+    },
+    "investments_creation_condition_predicate_input_node_commitment_label": {
+      "value": "Commitment"
+    },
+    "investments_creation_condition_where_section_label": {
+      "value": "Filter"
+    },
+    "investments_creation_condition_where_input_root_unused_statement": {
+      "value": "Ignoring due to unconditional predicate"
+    },
+    "investments_creation_condition_where_input_node_commitment_slice_country_label": {
+      "value": "Country"
+    },
+    "investments_creation_condition_where_input_node_commitment_slice_university_label": {
+      "value": "University"
+    },
+    "investments_creation_condition_where_input_node_commitment_slice_pledge_label": {
+      "value": "Pledge"
+    },
+    "university_index_label": {
+      "value": "University Index"
+    },
+    "university_index_filter_error_content": {
+      "value": "Ctrl/Cmd + F doesn't work so use these filters."
+    },
+    "raw_data_label": {
+      "value": "Raw Data"
+    },
+    "raw_data_info_content": {
+      "value": "This is the raw data used to populate the site. They are JSON-encoded protocol buffers based on the linked schemas. Pass them along to a software engineer for custom analysis."
+    },
+    "raw_data_stage_content": {
+      "value": "Data submitted by universities. Importantly, it includes pledges and their respective rules and values. Take care to combine it with the metadata below to get relevant data (e.g. data from active universities). Refresh to get the latest data."
+    },
+    "raw_data_stage_schema_label": {
+      "value": "Schema"
+    },
+    "raw_data_stage_schema_url": {
+      "value": "https://github.com/search?q=repo%3Aaunt-pei%2Fsprout_interchange+path%3Aprotobufs%2Flib%2Fsrc%2Fv1%2Fapi.proto+language%3A%22Protocol+Buffers%22++symbol%3AGetStageResponse&type=code"
+    },
+    "raw_data_backdrop_content": {
+      "value": "Metadata useful for understanding the submitted data. This data is also linked as a text file, which is considered the source-of-truth and so should be preferred."
+    },
+    "raw_data_backdrop_source_label": {
+      "value": "Source"
+    },
+    "raw_data_backdrop_source_url": {
+      "value": "https://raw.githubusercontent.com/aunt-pei/sprout_interchange/main/assets/assets/src/v1/backdrop/data.pb.json"
+    },
+    "raw_data_backdrop_schema_label": {
+      "value": "Schema"
+    },
+    "raw_data_backdrop_schema_url": {
+      "value": "https://github.com/search?q=repo%3Aaunt-pei%2Fsprout_interchange+path%3Aprotobufs%2Flib%2Fsrc%2Fv1%2Fbackdrop.proto+language%3A%22Protocol+Buffers%22++symbol%3ABackdropInfo&type=code"
+    }
+  },
+  "default_connector": {
+    "value": " "
+  }
+}

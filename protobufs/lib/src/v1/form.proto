@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.auntpei.sprout.v1;
+
+import "v1/pledge.proto";
+
+message FormResponse {
+  string response_key = 1;
+  string university_domain_name = 2;
+  PledgeInfo pledge_info = 3;
+}

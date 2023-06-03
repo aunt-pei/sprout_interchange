@@ -1,0 +1,51 @@
+{
+  "translation_infos": [
+    {
+      "locale": {
+        "language_code": "en",
+        "country_code": "US"
+      },
+      "latest_update_usec": "1686272507000000",
+      "native_name": "American English",
+      "is_fallback": true
+    }
+  ],
+  "investments_info": {
+    "investment_deadline_usec": "1704095999000000"
+  },
+  "university_infos": [
+    {
+      "domain_name": "ucsd.edu",
+      "statuses": [
+        {
+          "status": "ENABLED",
+          "event_timestamp_usec": "1686272507000000",
+          "reason_enum": "INITIAL_ACCESS"
+        }
+      ],
+      "country_code": "US"
+    },
+    {
+      "domain_name": "ucla.edu",
+      "statuses": [
+        {
+          "status": "ENABLED",
+          "event_timestamp_usec": "1686272507000000",
+          "reason_enum": "INITIAL_ACCESS"
+        }
+      ],
+      "country_code": "US"
+    },
+    {
+      "domain_name": "berkeley.edu",
+      "statuses": [
+        {
+          "status": "ENABLED",
+          "event_timestamp_usec": "1686272507000000",
+          "reason_enum": "INITIAL_ACCESS"
+        }
+      ],
+      "country_code": "US"
+    }
+  ]
+}
